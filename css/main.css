@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box; 
+    /*font-family: 'Urbanist', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    --menu-color: #181818;
+    --second-color:#FFD700;
+    --black-color:rgb(19, 19, 19);
+}
+
+body{
+    background-color: black;
+}
+
+.join-button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:200px;
+    height:40px;
+    background-color: rgba(0, 0, 0, 0.568);
+    border:2px solid var(--second-color);
+    border-radius: 20px;
+    color:var(--second-color);
+    box-shadow: 0 0 20px black;
+}
+
+#landing-logo{
+    max-width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
+    border:2px solid var(--second-color);
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+#title{
+    font-size: 40px;
+    text-shadow: -1px 0px 0px var(--second-color);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#sub-title{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: -1px 0px 0px var(--second-color);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.landing-area{
+    height: 100vh;
+}
+
+.parallax-0{
+    /* The image used */
+  background-image: url("../img/salon-bronzat-poza-albastra.webp");
+  padding-top:20vh;
+
+  /* Set a specific height */
+  height: 100vh; 
+width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-1{
+    /* The image used */
+  background-image: url("../img/aparat-bronz.webp");
+  padding-top:20vh;
+
+  /* Set a specific height */
+  height: 50vh; 
+width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page{
+    min-height: 100vh;
+    background-color: var(--menu-color);
+    padding-top: 60px;
+}
+
+.page-title{
+    color:var(--second-color);
+    font-size:36px;
+    font-weight: 400;
+    text-shadow: -2px 0 0 #756300;
+    margin-left: 70px;
+    margin-left: 10vw;
+}
+
+.page-content{
+    width:100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.page-content-left{
+    flex-grow: 1;
+    flex: 1 1 0px;
+    
+    min-width: 0;
+
+}
+.page-content p{
+    text-align: left;
+    max-width:500px;
+    margin-left: 10vw;
+    color:white;
+    margin-top:30px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.page-content-right{
+    flex-grow: 1;
+    flex: 1 1 0px;
+    
+    min-width: 0;
+}
+
+.page-img{
+    width:270px;
+    margin-left: calc(50% - 135px);
+    box-shadow: 0px 0px 10px var(--second-color);
+}
+
+
+.fl1{
+    
+    flex-basis: 0;
+}
+
+.mapouter{
+    margin-left: calc(50% - 15vw);
+    padding-top:calc(50vh - 15vw - 104px);
+    max-width: 400px;
+    height: 400px;
+}
+#gmap{
+    width: 30vw;
+    height: 30vw;
+}
+
+.contact-form a{
+    text-decoration: none;
+    color:rgb(115, 211, 255);
+}
+
+
+i{
+    color:var(--second-color);
+    padding-right: 15px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .page-content p{
+        font-size:20px;
+    }
+    .map-page{
+        flex-direction: column;
+    }
+    .map-page-title{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .map-page p{
+        font-size:20px;
+        margin-bottom: 30px;
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #gmap{
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .mapouter{
+        padding-top:20px;
+        margin-left:0;
+        max-width: 90vw;
+        height: 400px;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    .page-content p{
+        font-size:20px;
+        margin-bottom: 30px;
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .map-page p{
+        font-size:4vw;
+    }
+    
+    .page-content{
+        flex-direction: column;
+
+    }
+    .page-title{
+        text-align: center;
+        margin-left: 0;
+    }
+  }
