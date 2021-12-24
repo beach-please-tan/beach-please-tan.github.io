@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: var(--menu-color);
 }
 
 .join-button{
@@ -24,6 +24,13 @@ body{
     border-radius: 20px;
     color:var(--second-color);
     box-shadow: 0 0 20px black;
+    transition: 0.5s;
+}
+
+.join-button:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top:-5px;
 }
 
 #landing-logo{
@@ -56,13 +63,18 @@ body{
     height: 100vh;
 }
 
+.fadein{
+    opacity: 0;
+}
+    
+
 .parallax-0{
     /* The image used */
   background-image: url("../img/salon-bronzat-poza-albastra.webp");
   padding-top:20vh;
 
   /* Set a specific height */
-  height: 100vh; 
+  height: 100vh ; 
 width: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -74,10 +86,9 @@ width: 100%;
 .parallax-1{
     /* The image used */
   background-image: url("../img/aparat-bronz.webp");
-  padding-top:20vh;
 
   /* Set a specific height */
-  height: 50vh; 
+  height: 30vh; 
 width: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -87,11 +98,24 @@ width: 100%;
 }
 .parallax-2{
     /* The image used */
-  background-image: url("../img/aparat-bronzat-1.webp");
-  padding-top:20vh;
+  background-image: url("../img/aparat-bronzat-rosu.webp");
 
   /* Set a specific height */
-  height: 50vh; 
+  height: 10vh; 
+width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-3{
+    /* The image used */
+  background-image: url("../img/aparat-bronzat-1.webp");
+
+  /* Set a specific height */
+  height: 10vh; 
 width: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -104,6 +128,10 @@ width: 100%;
     min-height: 100vh;
     background-color: var(--menu-color);
     padding-top: 60px;
+}
+
+.gallery-page{
+    padding-bottom: 30px;
 }
 
 .page-title{
@@ -156,6 +184,10 @@ width: 100%;
     margin-bottom: 20px;
 }
 
+.brands-page{
+    min-height:0;
+    padding-bottom: 20px;
+}
 
 .fl1{
     
@@ -182,6 +214,12 @@ width: 100%;
 i{
     color:var(--second-color);
     padding-right: 15px;
+}
+
+.brand{
+    max-width:400px;
+    margin-left: calc(50% - 200px);
+    margin-bottom: 40px;
 }
 
 
@@ -219,6 +257,15 @@ i{
   }
 
   @media screen and (max-width: 680px) {
+      .gallery-title{
+          margin-bottom:10vh;
+      }
+
+      .brand{
+        max-width:90vw;
+        margin-left:5vw;
+    }
+    
     .page-content p{
         font-size:20px;
         margin-bottom: 30px;

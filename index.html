@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/navbar.css">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="img/favicon.webp">
 
+    <script src="https://kit.fontawesome.com/11147ceb90.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700;900&family=Open+Sans:wght@800&family=Roboto+Mono:wght@400;500;600;700&family=Urbanist:wght@300&display=swap" rel="stylesheet">
@@ -19,16 +20,20 @@
 <script src="js/script.js"></script>
 <script src="js/slider.js"></script>
 
+<script src="js/animations.js"></script>
+
     <title>Salon</title>
 </head>
 <body>
     <div class="wrapper">
         <div id="landing-area">
             <div class="parallax-0">
-                <img id="landing-logo" src="./img/beach please_LOGO_cropped.webp" alt="">
-                <h1 id="title">BEACH PLEASE</h1>
-                <h2 id="sub-title">tanning</h2>                
-                <button class="join-button">Programeaza o ședință</button>
+                <div class="landing-content">
+                    <img id="landing-logo" src="./img/beach please_LOGO_cropped.webp" alt="">
+                    <h1 id="title">BEACH PLEASE</h1>
+                    <h2 id="sub-title">tanning</h2>                
+                    <button class="join-button">Programeaza o ședință</button>
+                </div>
             </div>
         </div>
         <div id="navbar">
@@ -38,21 +43,20 @@
                 <div id="contact-btn" class="menu-btn">Contact</div>
         </div>
         <div id="about-us" class="page">
-            <h1 class="page-title">Despre noi</h1>
+            <h1 class="page-title fadein">Despre noi</h1>
             <div class="page-content">
-                <div class="page-content-left">
+                <div class="page-content-left fadein">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem tempore dolore perspiciatis ipsum libero voluptatibus architecto in, aut rerum unde hic deserunt dolorum, iusto veritatis repudiandae. Dolor soluta voluptate magnam.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nostrum reprehenderit excepturi quaerat. Eveniet itaque, sed consequuntur officia quibusdam expedita quo inventore id enim facere sint, error, praesentium illum perspiciatis!</p>
                 </div>
                 <div class="page-content-right">
-                    <img class="page-img" src="./img/femeie-model-bronzat-cropped.webp" alt="">
+                    <img class="page-img  fadein" src="./img/femeie-model-bronzat-cropped.webp" alt="">
                 </div>
             </div>
         </div>
         <div class="parallax-1"></div>
-
-
+       
         <div class="page gallery-page">
-            <h1 class="page-title gallery-title">Galerie foto</h1>
+            <h1 class="page-title gallery-title fadein">Galerie foto</h1>
             <div class="slideshow-container">
 
                 <!-- Full-width images with number and caption text -->
@@ -88,23 +92,29 @@
               </div>
         </div>
 
+        
+        <div class="parallax-3"></div>
+        <div class="page brands-page">
+            <h1 class="page-title gallery-title fadein">Branduri</h1>
+            <img class="brand fadein" src="img/australian-gold-logo.png" alt="">
+        </div>
         <div class="parallax-2"></div>
 
 
         <div id="contact-us" class="page">
-            <h1 class="page-title map-page-title">Contact</h1>
+            <h1 class="page-title map-page-title fadein">Contact</h1>
             <div class="page-content map-page">
                 <div class="page-content-left">
-                    <div class="contact-form">
+                    <div class="contact-form fadein">
                         <p><i class="far fa-calendar-alt"></i> Mi-D: 11:00 - 19:00</p>
-                        <p><i class="fas fa-mobile-alt"></i> <a href="tel:5554280940"> 5554280940</a></p>
+                        <p><i class="fas fa-mobile-alt"></i> <a href="tel:0725077857"> 0725077857</a></p>
                         <p><i class="fas fa-envelope"></i> <a href="mailto:beachplease.tanning.studio@gmail.com"> beachplease.tanning.studio@gmail</a></p>
                         <p><i class="fab fa-facebook-square"></i></i> <a href="https://www.facebook.com/profile.php?id=100057229758720"> Beach Please Tanning Studio</a></p>
                         <p><i class="fab fa-instagram"></i><a href="https://www.instagram.com/beach.please.tanning.studio/"> @beach.please.tanning.studio</a></p>
                         <p><i class="fas fa-map-marked-alt"></i> Strada Lahovari Nr. 151, Etaj 1, Ap. 4</p>
                     </div>
                 </div>
-                <div class="page-content-right">
+                <div class="page-content-right fadein">
                     <div class="mapouter">
                         <iframe id="gmap" width="400" height="400" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJV8nPIk3lukAR5j2c9WqBB3Q&key=AIzaSyB_6vfAkYomOONjIvYcHK0w5sRniPab_Vw"></iframe>
                     </div>
