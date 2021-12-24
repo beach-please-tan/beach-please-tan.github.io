@@ -85,6 +85,20 @@ width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.parallax-2{
+    /* The image used */
+  background-image: url("../img/aparat-bronzat-1.webp");
+  padding-top:20vh;
+
+  /* Set a specific height */
+  height: 50vh; 
+width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .page{
     min-height: 100vh;
@@ -97,7 +111,6 @@ width: 100%;
     font-size:36px;
     font-weight: 400;
     text-shadow: -2px 0 0 #756300;
-    margin-left: 70px;
     margin-left: 10vw;
 }
 
@@ -135,6 +148,12 @@ width: 100%;
     width:270px;
     margin-left: calc(50% - 135px);
     box-shadow: 0px 0px 10px var(--second-color);
+}
+
+.gallery-title{
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 
