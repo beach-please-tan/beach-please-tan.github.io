@@ -261,6 +261,7 @@ i{
   @media screen and (max-width: 680px) {
       .gallery-title{
           margin-bottom:10vh;
+          padding-top:20vh;
       }
 
       .parallax{
@@ -290,5 +291,8 @@ i{
     .page-title{
         text-align: center;
         margin-left: 0;
+    }
+    .hide-on-mobile{
+        display: none;
     }
   }
