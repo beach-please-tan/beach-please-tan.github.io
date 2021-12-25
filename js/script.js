@@ -23,6 +23,24 @@ $(document).ready(function () {
         }, 1000);
     });
 
-
     showSlides(slideIndex);
+
+    if($(window).width() >= 1024){
+        
+      }
+
+   
+
+    if($(window).width() < 680){
+        $('.parallax-0').css('background-position', 'center ' + 0 + 'px');
+    }
+
+
+    $(window).scroll(function() {
+        var scrolledY = $(window).scrollTop();
+        if($(window).width() < 680){
+            $('.parallax-0').css('background-position', 'center ' + ((scrolledY)) + 'px');
+        }
+      });
+
 })

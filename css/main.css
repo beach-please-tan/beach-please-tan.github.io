@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: var(--menu-color);
+   background-color: var(--menu-color);
 }
 
 .join-button{
@@ -82,6 +82,8 @@ width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 
 .parallax-1{
     /* The image used */
@@ -259,6 +261,10 @@ i{
   @media screen and (max-width: 680px) {
       .gallery-title{
           margin-bottom:10vh;
+      }
+
+      .parallax{
+          background-attachment: scroll;
       }
 
       .brand{

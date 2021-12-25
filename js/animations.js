@@ -4,6 +4,7 @@ $(document).ready(function () {
     $(".parallax-0").animate({
         paddingTop: '20vh'
     }, 1000)
+
     $('.landing-content').animate({
         opacity: '1'
     }, 1000);
