@@ -48,14 +48,14 @@ body{
     font-size: 40px;
     text-shadow: -1px 0px 0px var(--second-color);
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Island Moments', cursive;
 }
 #sub-title{
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 20px;
     text-shadow: -1px 0px 0px var(--second-color);
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Island Moments', cursive;
     font-weight: 300;
 }
 

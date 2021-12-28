@@ -1,0 +1,75 @@
+.prices-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.price-col-3{
+    flex-grow: 1;
+    max-width: 33%;
+    flex:33%;
+}
+
+.price-box{
+    text-align: center;
+    background:var(--black-color);
+    color:white;
+    width:300px;
+    margin-left: calc(50% - 150px);
+    margin-top:30px;
+    border-radius:10px;
+    min-height: 233px;
+    box-shadow:0 0 10px rgba(255, 255, 255, 0.137) ;
+    position: relative;
+}
+
+.tarif-universal{
+    font-size: 20px;
+    padding-top:70px;
+}
+
+.price-box h3{
+    font-size: 30px;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+.flex-3{
+    display: flex;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    
+    color:var(--black-color);
+    height: 60px;
+    padding-top: 10px;
+    margin-top:20px;
+    border-radius:0 0 10px 10px;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    left: 0;
+
+}
+.flex-3 p{
+    flex-grow: 1;
+    color:white;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 930px) {
+    .price-col-3 {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 680px) {
+    .price-col-3 {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .price-col-2 {
+        flex: 100%;
+        max-width: 100%;
+      }
+  }
