@@ -23,6 +23,12 @@ $(document).ready(function () {
         }, 1000);
     });
 
+    $('#prices-btn').click(function () {
+        $('html, body').animate({
+            scrollTop: $('#prices').offset().top
+        }, 1000);
+    });
+
     showSlides(slideIndex);
 
     if($(window).width() >= 1024){
