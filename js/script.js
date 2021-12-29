@@ -28,6 +28,9 @@ $(document).ready(function () {
             scrollTop: $('#prices').offset().top
         }, 1000);
     });
+    $('#info-btn').click(function () {
+        window.location.href = "./info.html";
+    });
 
     showSlides(slideIndex);
 
