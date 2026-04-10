@@ -45,13 +45,13 @@ body{
 }
 
 #title{
-    font-size: 35px;
+    font-size: 37px;
     text-shadow: -1px 0px 0px var(--second-color);
     text-align: center;
     font-family: 'Playfair Display', cursive;
 }
 #sub-title{
-    font-size: 35px;
+    font-size: 37px;
     margin-bottom: 20px;
     text-shadow: -1px 0px 0px var(--second-color);
     text-align: center;
