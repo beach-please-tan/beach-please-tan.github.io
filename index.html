@@ -10,6 +10,7 @@
 <meta property="og:description" content="Salon de bronzat premium în Constanța. Bronz uniform, rapid și sigur. Program 10:00 - 20:00.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://beachplease.ro">
+        content="Cele mai calitative servicii, oferite de cel mai profesionist personal. Te așteptăm la sediul nostru de pe strada Lahovari Nr. 151" />
     <meta property="og:locale" content="ro_ro" />
 
 
@@ -41,7 +42,46 @@
 
     <title>SALON DE BRONZAT ÎN CONSTANȚA |BEACH PLEASE |</title>
 </head>
+<div id="cookie-banner" style="
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+background:#111;
+color:#fff;
+padding:12px;
+text-align:center;
+z-index:99999;
+font-size:14px;
+">
 
+Acest site folosește cookie-uri pentru funcționare și analiză trafic.
+
+<button onclick="acceptCookies()" style="
+margin-left:10px;
+padding:6px 12px;
+border:none;
+background:#d4af37;
+color:#000;
+cursor:pointer;
+border-radius:6px;">
+Accept
+</button>
+
+</div>
+
+<script>
+function acceptCookies() {
+localStorage.setItem("cookiesAccepted", "true");
+document.getElementById("cookie-banner").style.display = "none";
+}
+
+window.onload = function () {
+if (localStorage.getItem("cookiesAccepted") === "true") {
+document.getElementById("cookie-banner").style.display = "none";
+}
+};
+</script>
 <body>
     <div class="wrapper">
         <div id="landing-area">
@@ -243,17 +283,12 @@
                 <div class="page-content-right fadein">
                     <div class="mapouter">
                         <iframe id="gmap" width="400" height="400" style="border:0" loading="lazy" allowfullscreen
-                            src="https://www.google.com/maps?q=Strada%20Lahovari%20151%20Constanța&output=embed"></iframe>
+                            src="https://www.google.com/maps?q=Strada%20Lahovari%20151%20Constanta&output=embed"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-  <!-- COOKIE -->
-<div id="cookie">
-Acest site folosește cookie-uri
-<button onclick="document.getElementById('cookie').style.display='none'">OK</button>
-</div>
 </body>
 
 </html>
