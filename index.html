@@ -2,253 +2,168 @@
 <html lang="ro">
 
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <meta name="keywords" content="salon bronzat Constanța, bronzare Constanța, Beach Please Tanning Studio, solar Constanța, bronz profesional">
+<title>Beach Please Tanning Studio | Salon Bronzat Constanța Premium</title>
+
+<meta name="description" content="Salon de bronzat premium în Constanța. Bronz uniform, rapid și sigur. Program 10:00 - 20:00.">
+<meta name="keywords" content="salon bronzat Constanța, bronzare Constanța, solar Constanța, Beach Please Tanning Studio">
 <meta name="robots" content="index, follow">
+<link rel="canonical" href="https://beachplease.ro">
 
-<meta property="og:title" content="Salon Bronzat Constanța | Beach Please Tanning Studio">
-<meta property="og:description" content="Salon de bronzat premium în Constanța. Bronz uniform, rapid și sigur. Program 10:00 - 20:00.">
+<meta property="og:title" content="Beach Please Tanning Studio - Salon Bronzat Constanța">
+<meta property="og:description" content="Salon premium de bronzare în Constanța. Rezultate rapide și sigure.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://beachplease.ro">
-    <meta property="og:locale" content="ro_ro" />
+<meta property="og:locale" content="ro_RO">
 
+<link rel="icon" href="img/favicon.webp">
 
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
 
+<!-- Icons -->
+<script src="https://kit.fontawesome.com/11147ceb90.js" crossorigin="anonymous"></script>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/prices.css">
+<style>
+body { margin:0; font-family:Montserrat, sans-serif; background:#0b0b0b; color:#fff; }
+.wrapper { width:100%; overflow:hidden; }
+.page { padding:60px 20px; max-width:1100px; margin:auto; }
+h1,h2 { text-align:center; }
+a { color:#fff; }
 
-    <link rel="icon" type="image/x-icon" href="img/favicon.webp">
+/* HERO */
+#landing-area {
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(120deg,#000,#1a1a1a);
+}
 
-    <script src="https://kit.fontawesome.com/11147ceb90.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat:wght@100;300;500;700;900&family=Open+Sans:wght@800&family=Roboto+Mono:wght@400;500;600;700&family=Urbanist:wght@300&display=swap"
-        rel="stylesheet">
+#title { font-size:40px; font-weight:900; }
+#sub-title { color:#aaa; }
 
-    <link rel="stylesheet" href="./css/slider.css">
+.join-button {
+margin-top:20px;
+padding:12px 20px;
+border:none;
+border-radius:10px;
+background:#d4af37;
+color:#000;
+font-weight:700;
+cursor:pointer;
+}
 
-    <script src="js/jquery.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/slider.js"></script>
+/* NAV */
+#navbar {
+display:flex;
+justify-content:center;
+gap:20px;
+padding:15px;
+background:#111;
+position:sticky;
+top:0;
+}
 
-    <script src="js/animations.js"></script>
+.menu-btn { cursor:pointer; color:#fff; }
 
-    <title>SALON DE BRONZAT ÎN CONSTANȚA |BEACH PLEASE |</title>
+/* CONTACT */
+.contact-box { line-height:1.8; }
+
+/* MAP */
+iframe { width:100%; border-radius:12px; }
+
+/* COOKIE */
+#cookie {
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+background:#111;
+padding:10px;
+text-align:center;
+z-index:9999;
+}
+
+button { cursor:pointer; }
+</style>
+
 </head>
 
 <body>
-    <div class="wrapper">
-        <div id="landing-area">
-            <div class="parallax-0 parallax">
-                <div class="landing-content">
-                    <img id="landing-logo" src="./img/beach please_LOGO_cropped.webp" alt="">
-                    <h1 id="title">SALON DE BRONZAT ÎN CONSTANȚA | BEACH PLEASE</h1>
-                    <h2 id="sub-title">TANNING STUDIO</h2>
-                    <button class="join-button">Programează o ședință</button>
-                </div>
-            </div>
-        </div>
-        <div id="navbar">
-            <div id="about-us-btn" class="menu-btn border-left">Despre noi</div>
-            <div id="gallery-btn" class="menu-btn border-left">Galerie</div>
-            <div id="prices-btn" class="menu-btn border-left">Prețuri</div>
-            <div id="contact-btn" class="menu-btn border-left">Contact</div>
-            <div id="info-btn" class="menu-btn">Despre bronz</div>
-        </div>
-        <div id="about-us" class="page">
-            <h1 class="page-title fadein">Despre noi</h1>
-            <div class="page-content">
-                <div class="page-content-left fadein">
-                    <p>Beach Please este un salon de bronzat din Constanța situat pe Strada Lahovari nr. 151. Oferim ședințe la solar, abonamente avantajoase și aparate moderne Luxura pentru un bronz uniform și de durată.</p>
-                    <p>
-                        O vizită la salonul de bronzat a devenit sinonimă cu o evadare din cotidian într-o oază de relaxare, un răsfăț la îndemână.
-                    </p>
-                    <p>
-                        Pielea bronzată este un trend, având o piele brozată ești mai încrezător în tine, bronzul reduce vizibilitatea celulitei, subțiază silueta, până și hainele se așează într-un mod plăcut pe o piele bronzată și sunt doar câteva motive pentru care alegem să încercăm o astfel de tehnologie ultra sigură. Razele UV tratează și boli precum acneea, neurodermatita, ciuperci, psoriazisul, osteoporoza. Bronzul stimulează producția de colagen și elastină din corp, activează circulația sângelui, ameliorează condiția generală și vă dă o stare de bine, întărirea oaselor cu ajutorul neoanelor ce conțin Vitamina D.
-                    </p>
-                    <p>Dacă încă mai stai pe gânduri, căutând salonul perfect, noi suntem soluția. La doar un apel distanță, bronzul tău visat poate să devină realitate.</p>
-                </div>
-                <div class="page-content-right">
-                    <img class="page-img  fadein" src="./img/femeie-model-bronzat-cropped.webp" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="parallax-1 parallax hide-on-mobile"></div>
 
-        <div class="page gallery-page">
-            <h1 class="page-title gallery-title fadein">Galerie foto</h1>
-            <div class="slideshow-container">
+<div class="wrapper">
 
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 6</div>
-                    <img src="img/aparat-bronzat-cu-oglinda.webp" style="width:100%">
-                    <!-- <div class="text">Caption Text</div>-->
-                </div>
+<!-- HERO -->
+<section id="landing-area">
+<div>
+<img src="./img/beach please_LOGO_cropped.webp" width="160">
+<h1 id="title">EXPERIENȚĂ PREMIUM DE BRONZARE ÎN CONSTANȚA</h1>
+<h2 id="sub-title">BEACH PLEASE TANNING STUDIO</h2>
+<a href="tel:0725077857">
+<button class="join-button">Programează-te acum</button>
+</a>
+</div>
+</section>
 
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 6</div>
-                    <img src="img/aparat-bronzat-cu-perna.webp" style="width:100%">
-                    <!--<div class="text">Caption Two</div>-->
-                </div>
+<!-- NAV -->
+<div id="navbar">
+<div>Despre noi</div>
+<div>Galerie</div>
+<div>Prețuri</div>
+<div>Contact</div>
+</div>
 
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 6</div>
-                    <img src="img/hol-salon-bronzat.webp" style="width:100%">
-                    <!--<div class="text">Caption Three</div>-->
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">4 / 6</div>
-                    <img src="img/aparat-verde-bronz.webp" style="width:100%">
-                    <!--<div class="text">Caption Three</div>-->
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">5 / 6</div>
-                    <img src="img/lotiune.webp" style="width:100%">
-                    <!--<div class="text">Caption Three</div>-->
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">6 / 6</div>
-                    <img src="img/neon-albastru.webp" style="width:100%">
-                    <!--<div class="text">Caption Three</div>-->
-                </div>
+<!-- ABOUT -->
+<section class="page">
+<h2>Despre noi</h2>
+<p>
+Beach Please este un salon de bronzat premium din Constanța,
+Strada Lahovari Nr. 151. Oferim bronz uniform, aparate moderne și experiență luxury.
+</p>
+</section>
 
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<!-- PRICES -->
+<section class="page">
+<h2>Prețuri</h2>
+<p>3 RON / minut</p>
+<p>Abonamente disponibile: Sassy, Bold, Queen, King, Beach</p>
+</section>
 
-            </div>
-            <br>
+<!-- CONTACT -->
+<section class="page">
+<h2>Contact</h2>
 
-            <!-- The dots/circles -->
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
-            </div>
-        </div>
+<div class="contact-box">
+<p><i class="fas fa-clock"></i> 10:00 - 20:00</p>
+<p><i class="fas fa-phone"></i> 0725077857</p>
+<p><i class="fas fa-envelope"></i> beachplease.tanning.studio@gmail.com</p>
+<p><i class="fas fa-map"></i> Strada Lahovari Nr. 151, Constanța</p>
 
-        <div class="parallax-2 parallax hide-on-mobile"></div>
+<a href="https://wa.me/40725077857" target="_blank">
+💬 WhatsApp Programare
+</a>
+</div>
 
-        <div class="page" id="prices">
-            <h1 class="page-title fadein">Prețuri</h1>
-            <div class="prices-container">
-                <div class="price-col-3">
-                    <div class="price-box fadein">
-                        <p class="tarif-universal">3 RON/min și puteți opta pentru o perioadă care este multiplu de 3
-                        </p>
-                    </div>
-                </div>
+<br>
 
-                <div class="price-col-3">
-                    <div class="price-box fadein">
-                        <h3 class="price-name">Sassy</h3>
-                        <p>Valabil o dată pe lună.</p>
-                        <div class="flex-3">
-                            <p>Durata: <br> 50 min</p>
-                            <p>Pret:<br> 135 RON</p>
-                            <p>Bonus:<br> 5 min</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="price-col-3">
-                    <div class="price-box fadein">
-                        <h3 class="price-name">Bold</h3>
-                        <p>Valabil de două ori pe lună.</p>
-                        <p>Include o cremă cadou.</p>
-                        <div class="flex-3">
-                            <p>Durata: <br> 100 min</p>
-                            <p>Pret:<br> 270 RON</p>
-                            <p>Bonus:<br> 10 min</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="price-col-3">
-                    <div class="price-box fadein">
-                        <h3 class="price-name">Queen</h3>
-                        <p>Valabil de patru ori pe lună.</p>
-                        <p>Include două creme cadou.</p>
-                        <div class="flex-3">
-                            <p>Durata: <br> 150 min</p>
-                            <p>Pret:<br> 405 RON</p>
-                            <p>Bonus:<br> 15 min</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="price-col-3">
-                    <div class="price-box fadein">
-                        <h3 class="price-name">King</h3>
-                        <p>Valabil de patru ori pe lună.</p>
-                        <p>Include două creme cadou.</p>
-                        <div class="flex-3">
-                            <p>Durata: <br> 150 min</p>
-                            <p>Pret:<br> 405 RON</p>
-                            <p>Bonus:<br> 15 min</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="price-col-3">
-                    <div class="price-box fadein">
-                        <h3 class="price-name">Beach</h3>
-                        <p>Valabil de șase ori pe lună.</p>
-                        <p>Include trei creme cadou.</p>
-                        <div class="flex-3">
-                            <p>Durata: <br> 200 min</p>
-                            <p>Pret:<br> 540 RON</p>
-                            <p>Bonus:<br> 20 min</p>
-                        </div>
-                    </div>
-                </div>
+<iframe
+src="https://www.google.com/maps?q=Strada%20Lahovari%20151%20Constanța&output=embed"
+height="350">
+</iframe>
 
+</section>
 
+</div>
 
-            </div>
-        </div>
+<!-- COOKIE -->
+<div id="cookie">
+Acest site folosește cookie-uri
+<button onclick="document.getElementById('cookie').style.display='none'">OK</button>
+</div>
 
-        <div class="parallax-3 parallax hide-on-mobile"></div>
-        <div class="page brands-page">
-            <h1 class="page-title gallery-title fadein">Branduri</h1>
-            <img class="brand fadein" src="img/australian-gold-logo.png" alt="">
-        </div>
-        <div class="parallax-2 parallax hide-on-mobile"></div>
-
-
-        <div id="contact-us" class="page">
-            <h1 class="page-title map-page-title fadein">Contact</h1>
-            <div class="page-content map-page">
-                <div class="page-content-left">
-                    <div class="contact-form fadein">
-                        <p><i class="far fa-calendar-alt"></i> Zilnic: 10:00 - 20:00</p>
-                        <p><i class="fas fa-mobile-alt"></i> <a href="tel:0725077857"> 0725077857</a></p>
-                        <p><i class="fas fa-envelope"></i> <a href="mailto:beachplease.tanning.studio@gmail.com">
-                                beachplease.tanning.studio@gmail</a></p>
-                        <p><i class="fab fa-facebook-square"></i></i> <a
-                                href="https://www.facebook.com/profile.php?id=100057229758720"> Beach Please Tanning
-                                Studio</a></p>
-                        <p><i class="fab fa-instagram"></i><a
-                                href="https://www.instagram.com/beach.please.tanning.studio/">
-                                @beach.please.tanning.studio</a></p>
-                        <p><i class="fas fa-map-marked-alt"></i> Strada Lahovari Nr. 151, Etaj 1, Ap. 4</p>
-                    </div>
-                </div>
-                <div class="page-content-right fadein">
-                    <div class="mapouter">
-                        <iframe id="gmap" width="400" height="400" style="border:0" loading="lazy" allowfullscreen
-                            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJV8nPIk3lukAR5j2c9WqBB3Q&key=AIzaSyB_6vfAkYomOONjIvYcHK0w5sRniPab_Vw"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </body>
-
 </html>
