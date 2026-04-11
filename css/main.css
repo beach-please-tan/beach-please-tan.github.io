@@ -310,3 +310,33 @@ i{
         display: none;
     }
   }
+#cookie-banner{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.9);
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 9999;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+#cookie-banner a{
+    color: #d4af37;
+    text-decoration: none;
+}
+
+#cookie-banner button{
+    background: #d4af37;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
