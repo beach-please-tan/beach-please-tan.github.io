@@ -46,17 +46,24 @@ body{
 
 #title{
     font-size: 37px;
-    text-shadow: -1px 0px 0px var(--second-color);
     text-align: center;
-    font-family: 'Playfair Display', cursive;
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+
+    text-shadow: 
+        1px 1px 0 #ffffff,
+        -1px -1px 0 #b8962e;
 }
 #sub-title{
     font-size: 37px;
     margin-bottom: 20px;
-    text-shadow: -1px 0px 0px var(--second-color);
     text-align: center;
-    font-family: 'font-family: 'Montserrat', sans-serif;', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+
+    background: linear-gradient(90deg, #ffffff, #d4af37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .landing-area{
