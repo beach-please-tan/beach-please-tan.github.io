@@ -261,25 +261,49 @@
                         <iframe id="gmap" width="400" height="400" style="border:0" loading="lazy" allowfullscreen
                             src="https://www.google.com/maps?q=Strada%20Lahovari%20151%20Constanta&output=embed"></iframe>
 
-<style>
 #cookie-banner{
     position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(0,0,0,0.95);
-    color: white;
-    padding: 15px;
-    text-align: center;
-    z-index: 999999; /* FOARTE IMPORTANT */
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(92%, 520px);
+    background: rgba(20, 20, 20, 0.92);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #fff;
+    padding: 16px 18px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    z-index: 999999;
+    font-family: 'Montserrat', sans-serif;
+}
+#cookie-banner button{
+    border: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
 }
 
-#cookie-banner button{
-    margin-left: 10px;
-    padding: 6px 12px;
+/* Accept */
+#cookie-banner button:first-of-type{
     background: #d4af37;
-    border: none;
-    cursor: pointer;
+    color: #111;
+}
+
+#cookie-banner button:first-of-type:hover{
+    transform: scale(1.05);
+}
+
+/* Refuz (dacă ai 2 butoane) */
+#cookie-banner button:last-of-type{
+    background: rgba(255,255,255,0.1);
+    color: #fff;
 }
 /* FOOTER */
 .footer{
