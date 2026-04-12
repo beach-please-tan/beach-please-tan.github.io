@@ -260,51 +260,39 @@
                             src="https://www.google.com/maps?q=Strada%20Lahovari%20151%20Constanta&output=embed"></iframe>
 
 
+<style>
+#cookie-banner{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(92%, 520px);
+    background: rgba(20, 20, 20, 0.92);
+    color: #fff;
+    padding: 16px;
+    border-radius: 14px;
+    z-index: 999999;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 #cookie-banner button{
     border: none;
     padding: 8px 14px;
     border-radius: 10px;
     cursor: pointer;
-    font-weight: 500;
-    transition: 0.2s ease;
 }
 
-/* Accept */
 #cookie-banner button:first-of-type{
     background: #d4af37;
     color: #111;
 }
 
-#cookie-banner button{
-    border: none;
-    padding: 8px 14px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: 500;
-    transition: 0.2s ease;
-}
-
-/* Accept */
-#cookie-banner button:first-of-type{
-    background: #d4af37;
-    color: #111;
-}
-
-#cookie-banner button:first-of-type:hover{
-    transform: scale(1.05);
-}
-
-/* Refuz (dacă ai 2 butoane) */
 #cookie-banner button:last-of-type{
     background: rgba(255,255,255,0.1);
     color: #fff;
-}
-/* FOOTER */
-.footer{
-    background: #0a0a0a;
-    color: #ccc;
-    padding: 30px;
-    text-align: center;
 }
 </style>
 
