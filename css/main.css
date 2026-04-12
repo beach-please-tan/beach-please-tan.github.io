@@ -69,13 +69,6 @@ body{
     background: linear-gradient(90deg, #ffffff, #d4af37);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-.landing-area{
-    height: 100vh;
-}
-
-.fadein{
-    opacity: 0;
 }
     
 
