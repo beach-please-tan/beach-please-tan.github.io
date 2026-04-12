@@ -48,10 +48,11 @@ body{
     font-size: 37px;
     text-align: center;
     font-family: 'Playfair Display', serif;
+    color: #d4af37;
 
-    background: linear-gradient(90deg, #d4af37, #ffffff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-shadow: 
+        1px 1px 0 #ffffff,
+        -1px -1px 0 #b8962e;
 }
 
 #sub-title{
