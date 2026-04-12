@@ -225,8 +225,6 @@
                     </div>
                 </div>
 
-
-
             </div>
         </div>
 
@@ -261,26 +259,22 @@
                         <iframe id="gmap" width="400" height="400" style="border:0" loading="lazy" allowfullscreen
                             src="https://www.google.com/maps?q=Strada%20Lahovari%20151%20Constanta&output=embed"></iframe>
 
-#cookie-banner{
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: min(92%, 520px);
-    background: rgba(20, 20, 20, 0.92);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    color: #fff;
-    padding: 16px 18px;
-    border-radius: 14px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    z-index: 999999;
-    font-family: 'Montserrat', sans-serif;
+
+#cookie-banner button{
+    border: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
 }
+
+/* Accept */
+#cookie-banner button:first-of-type{
+    background: #d4af37;
+    color: #111;
+}
+
 #cookie-banner button{
     border: none;
     padding: 8px 14px;
