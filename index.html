@@ -2,50 +2,7 @@
 <html lang="ro">
 
 <head>
-   #cookie-banner{
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #111;
-    color: #fff;
-    padding: 15px 20px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    z-index: 9999;
-    font-family: 'Montserrat', sans-serif;
-    box-shadow: 0 5px 25px rgba(0,0,0,0.5);
-    max-width: 90%;
-}
-
-.cookie-text{
-    font-size: 14px;
-}
-
-.cookie-text a{
-    color: #d4af37;
-    text-decoration: none;
-}
-
-.cookie-buttons button{
-    border: none;
-    padding: 8px 14px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#accept{
-    background: #d4af37;
-    color: black;
-    font-weight: bold;
-}
-
-#decline{
-    background: #333;
-    color: white;
-}
+   
 <link rel="canonical" href="https://beachplease.ro/">
    <meta name="keywords" content="salon bronzare Constanța, bronzare Constanța, Beach Please Tanning Studio, solar Constanța, bronz profesional">
 <meta name="robots" content="index, follow">
@@ -81,16 +38,6 @@
 
     <title>Salon De Bronzare Constanța | BEACH PLEASE |</title>
 </head>
-<div id="cookie-banner">
-    <div class="cookie-text">
-        Acest site folosește cookies pentru funcționare și analiză.
-        <a href="cookies.html">Detalii</a>
-    </div>
-    <div class="cookie-buttons">
-        <button id="accept">Accept</button>
-        <button id="decline">Refuz</button>
-    </div>
-</div>
 <body>
     <div class="wrapper">
         <div id="landing-area">
@@ -304,27 +251,7 @@
             </div>
         </div>
     </div>
- <script>
-window.onload = function(){
-    const banner = document.getElementById("cookie-banner");
-    const accept = document.getElementById("accept");
-    const decline = document.getElementById("decline");
 
-    if(localStorage.getItem("cookieChoice")){
-        banner.style.display = "none";
-    }
-
-    accept.onclick = function(){
-        localStorage.setItem("cookieChoice", "accepted");
-        banner.style.display = "none";
-    }
-
-    decline.onclick = function(){
-        localStorage.setItem("cookieChoice", "declined");
-        banner.style.display = "none";
-    }
-}
-</script>
 </body>
 
 </html>
