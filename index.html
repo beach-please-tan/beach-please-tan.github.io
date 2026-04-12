@@ -38,30 +38,32 @@
     <script src="js/animations.js"></script>
 
     <title>Salon De Bronzare Constanța | BEACH PLEASE |</title>
-</head>
-  <div id="cookie-banner">
-    <p>
-        Acest site folosește cookies pentru funcționare și analiză.
-        <a href="cookies.html">Află mai mult</a>
-    </p>
-    <button id="accept-cookies">Accept</button>
-</div>
 
-<script>
-window.onload = function () {
-    const banner = document.getElementById("cookie-banner");
-    const button = document.getElementById("accept-cookies");
-
-    if(localStorage.getItem("cookiesAccepted")){
-        banner.style.display = "none";
-    }
-
-    button.onclick = function(){
-        localStorage.setItem("cookiesAccepted", "true");
-        banner.style.display = "none";
-    }
+#cookie-banner{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.9);
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 9999;
+    font-family: 'Montserrat', sans-serif;
 }
-</script>
+
+#cookie-banner button{
+    background: #d4af37;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+</style> 
 <body>
     <div class="wrapper">
         <div id="landing-area">
