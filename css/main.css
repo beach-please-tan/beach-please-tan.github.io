@@ -62,7 +62,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 
-    background: ( #171616, #d4af37);
+   background: linear-gradient(90deg, #ffffff, #d4af37);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
