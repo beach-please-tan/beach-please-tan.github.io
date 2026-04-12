@@ -262,34 +262,25 @@
                             src="https://www.google.com/maps?q=Strada%20Lahovari%20151%20Constanta&output=embed"></iframe>
 
 <style>
-/* COOKIE BANNER */
 #cookie-banner{
     position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #111;
-    color: #fff;
-    padding: 15px 20px;
-    border-radius: 10px;
-    display: flex;
-    gap: 20px;
-    z-index: 9999;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.95);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    z-index: 999999; /* FOARTE IMPORTANT */
 }
 
 #cookie-banner button{
+    margin-left: 10px;
     padding: 6px 12px;
+    background: #d4af37;
+    border: none;
     cursor: pointer;
 }
-
-#accept{
-    background: gold;
-}
-
-#decline{
-    background: gray;
-}
-
 /* FOOTER */
 .footer{
     background: #0a0a0a;
