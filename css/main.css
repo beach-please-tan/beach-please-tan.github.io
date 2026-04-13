@@ -48,20 +48,26 @@ body{
     left: -9999px;
 }
 #title{
-    font-size: 48px;
+    font-size: 37px;
+    text-shadow: -1px 0px 0px var(--second-color);
     text-align: center;
-    font-family: 'Playfair Display', serif;
-    background: linear-gradient(90deg, #d4af37, #fff2a6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-family: 'Playfair Display', cursive;
+}
+#sub-title{
+    font-size: 37px;
+    margin-bottom: 20px;
+    text-shadow: -1px 0px 0px var(--second-color);
+    text-align: center;
+    font-family: 'font-family: 'Montserrat', sans-serif;', cursive;
+    font-weight: 300;
 }
 
-#sub-title{
-    font-size: 22px;
-    letter-spacing: 4px;
-    text-align: center;
-    color: #ccc;
-    font-family: 'Montserrat', sans-serif;
+.landing-area{
+    height: 100vh;
+}
+
+.fadein{
+    opacity: 0;
 }
 
 .hero-tagline{
