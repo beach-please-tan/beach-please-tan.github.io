@@ -170,9 +170,9 @@ width: 100%;
 .service-card:hover{
     transform: translateY(-12px) scale(1.03);
     border-color: #d4af37;
-    box-shadow: 0 20px 40px rgba(212,175,55,0.25);
+    box-shadow: 0 20px 40px rgba(212,175,55,0.25),
+                0 0 40px rgba(212,175,55,0.15);
 }
-
 /* text */
 .service-card h3{
     color: #fff;
