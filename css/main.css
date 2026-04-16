@@ -93,7 +93,16 @@ body{
     font-weight: 500;
 }
     
+.reveal{
+    opacity: 0;
+    transform: translateY(60px);
+    transition: 0.8s ease;
+}
 
+.reveal.active{
+    opacity: 1;
+    transform: translateY(0);
+}
 .parallax-0{
     /* The image used */
   background-image: url("../img/salon-bronzat-poza-albastra.jpg");
