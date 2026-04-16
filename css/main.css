@@ -275,14 +275,13 @@ i{
 
 /* CARD */
 .service-card{
-    background: rgba(255,255,255,0.02);
-    border: 1px solid rgba(212,175,55,0.15);
-    border-radius: 25px;
-    padding: 40px 30px;
-    transition: 0.4s ease;
-    backdrop-filter: blur(12px);
     position: relative;
-    overflow: hidden;
+    z-index: 1;
+}
+
+.service-card::before{
+    z-index: 0;
+    pointer-events: none;
 }
 
 /* glow efect */
