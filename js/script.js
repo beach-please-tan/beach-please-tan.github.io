@@ -44,7 +44,16 @@ $(document).ready(function () {
         $('.parallax-0').css('background-position', 'center ' + 0 + 'px');
     }
 
+const reveals = document.querySelectorAll(".reveal");
 
+window.addEventListener("scroll", () => {
+    reveals.forEach(el => {
+        const top = el.getBoundingClientRect().top;
+        if(top < window.innerHeight - 100){
+            el.classList.add("active");
+        }
+    });
+});
     $(window).scroll(function() {
         var scrolledY = $(window).scrollTop();
         if($(window).width() < 680){
