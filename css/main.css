@@ -48,19 +48,34 @@ body{
     left: -9999px;
 }
 #title{
-    font-size: 37px;
-    text-shadow: -1px 0px 0px var(--second-color);
+    margin-bottom: 10px;
+    font-size: 42px;
     text-align: center;
-    font-family: 'Playfair Display', cursive;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+
+    background: linear-gradient(90deg, #d4af37, #ffffff, #d4af37);
+    background-size: 200% auto;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: shine 5s linear infinite;
 }
+
 #sub-title{
-    font-size: 37px;
-    margin-bottom: 20px;
-    text-shadow: -1px 0px 0px var(--second-color);
+    font-size: 26px;
     text-align: center;
-    font-family: 'font-family: 'Montserrat', sans-serif;', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    background: linear-gradient(90deg, #ffffff, #d4af37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 
 .landing-area{
     height: 100vh;
