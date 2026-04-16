@@ -143,14 +143,7 @@ width: 100%;
 }
 
 /* glow efect */
-.service-card::before{
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(120deg, transparent, rgba(212,175,55,0.2), transparent);
-    opacity: 0;
-    transition: 0.4s;
-}
+
 
 .service-card:hover::before{
     opacity: 1;
