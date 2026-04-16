@@ -155,7 +155,15 @@ width: 100%;
 .service-card:hover::before{
     opacity: 1;
 }
+.service-card{
+    position: relative;
+    z-index: 1;
+}
 
+.service-card::before{
+    z-index: 0;
+    pointer-events: none;
+}
 /* hover */
 .service-card:hover{
     transform: translateY(-12px) scale(1.03);
