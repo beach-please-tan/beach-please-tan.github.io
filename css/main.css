@@ -154,8 +154,17 @@ width: 100%;
 }
 
 .service-card::before{
-    z-index: 0;
-    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(120deg, transparent, rgba(212,175,55,0.15), transparent);
+    opacity: 0;
+    transition: 0.4s;
+    border-radius: 25px;
+    z-index: -1; /* FOARTE IMPORTANT */
 }
 /* hover */
 .service-card:hover{
