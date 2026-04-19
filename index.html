@@ -70,30 +70,20 @@
 </h1>
 <h2 id="sub-title">TANNING STUDIO</h2>
 
-            <button class="join-button" onclick="openBooking()">
-                Programează-te acum
-            </button>
-
+                    <button class="join-button">Programează o ședință</button>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-
-<!-- NAVBAR -->
-<div id="navbar">
-    <div id="about-us-btn" class="menu-btn border-left">Despre noi</div>
-    <div id="gallery-btn" class="menu-btn border-left">Galerie</div>
-    <div id="prices-btn" class="menu-btn border-left">Prețuri</div>
-    <div id="contact-btn" class="menu-btn border-left">Contact</div>
-</div>
-
-<!-- DESPRE -->
-<div id="about-us" class="page">
-    <h1 class="page-title fadein">De ce să ne alegi</h1>
-
-    <div class="page-content">
-        <div class="page-content-left fadein">
-
-           <div class="page-content">
+        <div id="navbar">
+            <div id="about-us-btn" class="menu-btn border-left">Despre noi</div>
+            <div id="gallery-btn" class="menu-btn border-left">Galerie</div>
+            <div id="prices-btn" class="menu-btn border-left">Prețuri</div>
+            <div id="contact-btn" class="menu-btn border-left">Contact</div>
+            <div id="info-btn" class="menu-btn">Despre bronz</div>
+        </div>
+        <div id="about-us" class="page">
+            <h1 class="page-title fadein">Despre noi</h1>
+            <div class="page-content">
                 <div class="page-content-left fadein">
                     <p>Beach Please este un salon de bronzare din Constanța situat pe Strada Lahovari nr. 151. Oferim ședințe la solar, abonamente avantajoase și aparate moderne Luxura pentru un bronz uniform și de durată.</p>
                     <p>
@@ -103,15 +93,70 @@
                         Pielea bronzată este un trend, având o piele brozată ești mai încrezător în tine, bronzul reduce vizibilitatea celulitei, subțiază silueta, până și hainele se așează într-un mod plăcut pe o piele bronzată și sunt doar câteva motive pentru care alegem să încercăm o astfel de tehnologie ultra sigură. Razele UV tratează și boli precum acneea, neurodermatita, ciuperci, psoriazisul, osteoporoza. Bronzul stimulează producția de colagen și elastină din corp, activează circulația sângelui, ameliorează condiția generală și vă dă o stare de bine, întărirea oaselor cu ajutorul neoanelor ce conțin Vitamina D.
                     </p>
                     <p>Dacă încă mai stai pe gânduri, căutând salonul perfect, noi suntem soluția. La doar un apel distanță, bronzul tău visat poate să devină realitate.</p>
-
-
-        <div class="page-content-right">
-            <img class="page-img fadein" src="./img/femeie-model-bronzat-cropped.webp" loading="lazy">
+                </div>
+                <div class="page-content-right">
+                    <img class="page-img  fadein" src="./img/femeie-model-bronzat-cropped.webp" alt="SALON DE BRONZAT IN CONSTANTA" style="width:100%" loading="lazy">
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+        <div class="parallax-1 parallax hide-on-mobile"></div>
 
- <div class="parallax-2 parallax hide-on-mobile"></div>
+        <div class="page gallery-page">
+            <h1 class="page-title gallery-title fadein">Galerie foto</h1>
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="img/aparat-bronzat-cu-oglinda.webp" alt="aparat de bronzat cu oglinda Beach Please" style="width:100%" loading="lazy">
+                    <!-- <div class="text">Caption Text</div>-->
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="img/aparat-bronzat-cu-perna.webp" alt="Cabină bronzare modernă Beach Please Tanning Studio" style="width:100%" loading="lazy">
+                    <!--<div class="text">Caption Two</div>-->
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="img/hol-salon-bronzat.webp" alt="hol salon de bronzat" style="width:100%" loading="lazy">
+                    <!--<div class="text">Caption Three</div>-->
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="img/aparat-verde-bronz.webp" alt="aparat de bronzare" style="width:100%" loading="lazy">
+                    <!--<div class="text">Caption Three</div>-->
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="img/lotiune.webp" alt="lotiune de corp" style="width:100%" loading="lazy">
+                    <!--<div class="text">Caption Three</div>-->
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="img/neon-albastru.webp" alt="Neon albastru decorativ în salonul de bronzat Beach Please din Constanța" style="width:100%" loading="lazy">
+                    <!--<div class="text">Caption Three</div>-->
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+        </div>
+
+        <div class="parallax-2 parallax hide-on-mobile"></div>
 
         <div class="page" id="prices">
             <h1 class="page-title fadein">Prețuri</h1>
@@ -186,115 +231,149 @@
 
             </div>
         </div>
-
-
-<!-- SERVICII BEAUTY -->
-<div class="page services-section">
-    <h1 class="services-title">Servicii Beauty Premium</h1>
-
-    <div class="services-grid">
-
-        <div class="service-card">
-            <h3>Gene 2D</h3>
-            <p>Efect natural elegant</p>
-            <p><strong>200 RON</strong></p>
-        </div>
-
-        <div class="service-card">
-            <h3>Gene 3D</h3>
-            <p>Volum intens, look spectaculos</p>
-            <p><strong>250 RON</strong></p>
-        </div>
-
-        <div class="service-card">
-            <h3>Laminare gene</h3>
-            <p>Gene curbate și definite</p>
-            <p><strong>150 RON</strong></p>
-        </div>
-
-        <div class="service-card">
-            <h3>Laminare sprâncene</h3>
-            <p>Formă perfectă, fixare de durată</p>
-            <p><strong>150 RON</strong></p>
-        </div>
-
-        <div class="service-card">
-            <h3>Pensat sprâncene</h3>
-            <p>Contur precis</p>
-            <p><strong>50 RON</strong></p>
-        </div>
-
-        <div class="service-card">
-            <h3>Vopsit sprâncene</h3>
-            <p>Culoare intensă</p>
-            <p><strong>20 RON</strong></p>
-        </div>
-
-        <div class="service-card">
-            <h3>Machiaj profesional</h3>
-            <p>Look impecabil pentru orice ocazie</p>
-            <p><strong>250 RON</strong></p>
-        </div>
-
-    </div>
-
-    <button class="join-button" onclick="openBooking()">
-        Rezervă locul tău acum
-    </button>
+ <h2>Servicii Beauty Premium</h2>
+     <div class="services-section">
+        <h2>Servicii Beauty Premium</h2>
+<div class="service-card">
+    <h2>Servicii Beauty Premium</h2>
+<h3>Gene 2D</h3>
+<p>Efect natural, elegant</p>
+<p><strong>200 RON</strong></p>
 </div>
 
-<!-- RECENZII -->
-<div class="page">
-    <h1 class="page-title">Ce spun clienții</h1>
-
-    <p style="text-align:center;">⭐️⭐️⭐️⭐️⭐️ 4.9 din 5</p>
-    <p style="text-align:center;">„Cel mai bun salon din Constanța!”</p>
-    <p style="text-align:center;">„Rezultate rapide și personal top.”</p>
-
-    <button class="join-button" onclick="openBooking()">
-        Programează-te acum
-    </button>
+<div class="service-card">
+<h3>Gene 3D</h3>
+<p>Volum intens, look spectaculos</p>
+<p><strong>250 RON</strong></p>
 </div>
 
-<div class="parallax-2 parallax hide-on-mobile"></div>
+<div class="service-card">
+<h3>Laminare gene</h3>
+<p>Gene curbate și definite natural</p>
+<p><strong>150 RON</strong></p>
+</div>
 
-<!-- CONTACT -->
-<div id="contact-us" class="page">
-    <h1 class="page-title fadein">Contact</h1>
+<div class="service-card">
+<h3>Laminare sprâncene</h3>
+<p>Formă perfectă, fixare de durată</p>
+<p><strong>150 RON</strong></p>
+</div>
 
-    <div class="page-content map-page">
+<div class="service-card">
+<h3>Pensat sprâncene</h3>
+<p>Contur curat, adaptat feței</p>
+<p><strong>50 RON</strong></p>
+</div>
 
-        <div class="page-content-left">
-            <p>📍 Strada Lahovari Nr. 151</p>
-            <p>📞 0725 077 857</p>
-
-            <button class="join-button" onclick="openBooking()">
-                Programează-te pe WhatsApp
-            </button>
+<div class="service-card">
+<h3>Vopsit sprâncene</h3>
+<p>Culoare intensă, naturală</p>
+<p><strong>20 RON</strong></p>
+</div>
+   
+        <div class="parallax-3 parallax hide-on-mobile"></div>
+        <div class="page brands-page">
+            <h1 class="page-title gallery-title fadein">Branduri</h1>
+            <img class="brand fadein" src="img/australian-gold-logo.png" alt="">
         </div>
+        <div class="parallax-2 parallax hide-on-mobile"></div>
 
-        <div class="page-content-right">
-            <iframe id="gmap" loading="lazy"
-                src="https://www.google.com/maps?q=Strada%20Lahovari%20151%20Constanta&output=embed">
-            </iframe>
-        </div>
+        <div id="contact-us" class="page">
+            <h1 class="page-title map-page-title fadein">Contact</h1>
+            <div class="page-content map-page">
+                <div class="page-content-left">
+                    <div class="contact-form fadein">
+                        <p><i class="far fa-calendar-alt"></i> Luni-Sâmbătă: 12:00 - 21:00</p>
+                        <p><i class="fas fa-mobile-alt"></i> <a href="tel:0725077857"> 0725077857</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:beachplease.tanning.studio@gmail.com">
+                                beachplease.tanning.studio@gmail.com</a></p>
+                        <p><i class="fab fa-facebook-square"></i></i> <a
+                                href="https://www.facebook.com/profile.php?id=100057229758720"> Beach Please Tanning
+                                Studio</a></p>
+                        <p><i class="fab fa-instagram"></i><a
+                                href="https://www.instagram.com/beach.please.tanning.studio/">
+                                @beach.please.tanning.studio</a></p>
+                        <p><i class="fas fa-map-marked-alt"></i> Strada Lahovari Nr. 151, Etaj 1, Ap. 4</p>
+                    </div>
+                </div>
+                <div class="page-content-right fadein">
+                    <div class="mapouter">
+                        <iframe id="gmap" width="400" height="400" style="border:0" loading="lazy" allowfullscreen
+                            src="https://www.google.com/maps?q=Strada%20Lahovari%20151%20Constanta&output=embed"></iframe>
 
-    </div>
+
+<style>
+#cookie-banner{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(80%, 400px);
+    background: rgba(20, 20, 20, 0.92);
+    color: white;
+    padding: 16px;
+    border-radius: 14px;
+    z-index: 999999;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cookie-banner button{
+    border: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#cookie-banner button:first-of-type{
+    background: #d4af37;
+    color: #111;
+}
+
+#cookie-banner button:last-of-type{
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+
 </div>
 
+<div id="cookie-banner">
+    <span>Acest site folosește cookies.</span>
+    <button id="accept">Accept</button>
+    <button id="decline">Refuz</button>
+   <a href="cookies.html" style="color:#aaa; font-size:12px;">Detalii</a>
 </div>
 
-<!-- CTA STICKY -->
-<div class="sticky-cta" onclick="openBooking()">
-    Programează-te
-</div>
-
-<!-- JS -->
 <script>
-function openBooking(){
-    window.open("https://wa.me/40725077857", "_blank");
+window.onload = function(){
+    const banner = document.getElementById("cookie-banner");
+
+    if(localStorage.getItem("cookieChoice")){
+        banner.style.display = "none";
+    }
+
+    document.getElementById("accept").onclick = function(){
+        localStorage.setItem("cookieChoice","accepted");
+        banner.style.display = "none";
+    }
+
+    document.getElementById("decline").onclick = function(){
+        localStorage.setItem("cookieChoice","declined");
+        banner.style.display = "none";
+    }
 }
 </script>
 
 </body>
 </html>
+
