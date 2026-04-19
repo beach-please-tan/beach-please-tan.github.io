@@ -36,7 +36,17 @@ body{
     box-shadow: 0 0 20px black;
     transition: 0.5s;
 }
+button, .service-card{
+    transition: all 0.3s ease;
+}
 
+button:hover{
+    transform: translateY(-2px) scale(1.03);
+}
+
+.service-card:hover{
+    transform: translateY(-10px);
+}
 .join-button:hover{
     transition: 0.3s;
     cursor: pointer;
