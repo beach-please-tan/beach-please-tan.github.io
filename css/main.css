@@ -12,7 +12,17 @@
 body{
    background-color: var(--menu-color);
 }
-
+.cursor{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #d4af37;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.15s ease, width 0.2s, height 0.2s;
+    z-index: 9999;
+}
 .join-button{
     margin-left: auto;
     margin-right: auto;
