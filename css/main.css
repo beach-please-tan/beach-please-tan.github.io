@@ -39,7 +39,26 @@ body{
 button, .service-card{
     transition: all 0.3s ease;
 }
+.book-btn{
+    position: relative;
+    overflow: hidden;
+}
 
+.book-btn::after{
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    background: radial-gradient(circle, rgba(255,255,255,0.2), transparent);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.book-btn:hover::after{
+    opacity: 1;
+}
 button:hover{
     transform: translateY(-2px) scale(1.03);
 }
