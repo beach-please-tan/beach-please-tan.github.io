@@ -48,7 +48,12 @@ button, .service-card{
     transform: translateY(50px);
     animation: titleFade 1.2s ease forwards;
 }
-
+.section-divider{
+    width: 80px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #d4af37, transparent);
+    margin: 40px auto;
+}
 @keyframes titleFade{
     to{
         opacity: 1;
