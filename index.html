@@ -335,12 +335,27 @@
 </head>
 
 <body>
-
+<div class="sticky-cta" onclick="openBooking()">
+    Programează-te
+</div>
 <div class="wrapper">
 
 
 </div>
+   <div class="page-content-left">
+           
+            <p>📞 0725 077 857</p>
 
+            <button class="join-button" onclick="openBooking()">
+                Programează-te pe WhatsApp
+            </button>
+        </div>
+<!-- JS -->
+<script>
+function openBooking(){
+    window.open("https://wa.me/40725077857", "_blank");
+}
+</script>
 <div id="cookie-banner">
     <span>Acest site folosește cookies.</span>
     <button id="accept">Accept</button>
