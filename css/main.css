@@ -38,6 +38,12 @@ body{
 }
 button, .service-card{
     transition: all 0.3s ease;
+  
+}
+.join-button{
+    background: linear-gradient(45deg, #d4af37, #b8962e);
+    color:#111;
+    border:none;
 }
 .book-btn{
     position: relative;
